@@ -63,7 +63,7 @@ def get_key(val):
 
 
 if sec == "1":
-    yazi = input("Yaz: ")
+    yazi = input("Şifrelenecek metini Gir: ")
     yazi = yazi.lower()
     harfler = list(yazi)
     for i in harfler:
@@ -75,7 +75,7 @@ if sec == "1":
 elif sec == "2":
     son = "-"
     while True:
-        sifre = input()
+        sifre = input("Şifreyi Gir : ")
         sifre = sifre.replace(" ", "")
         sifrelist = sifre.split(",")
         for i in sifrelist:
@@ -85,10 +85,4 @@ elif sec == "2":
         else:
             break
     print(son)
-
-
-
-
-
-
 
