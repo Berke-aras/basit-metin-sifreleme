@@ -1,4 +1,4 @@
-# sayilar-ile-basit-sifreleme
+# basit-metin-sifreleme
 
 Metin şifrelemek için 1 Çözmek için 2 yazınız
 
