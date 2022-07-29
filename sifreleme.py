@@ -87,6 +87,3 @@ elif sec == "2":
     print(son)
 
     
-    
-    
-    
